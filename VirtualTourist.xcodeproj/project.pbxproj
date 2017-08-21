@@ -17,7 +17,6 @@
 		CE6896201EE8F8B400389D6A /* FlickrImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68961F1EE8F8B400389D6A /* FlickrImage.swift */; };
 		CE6896221EE8F8C900389D6A /* FlickrNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6896211EE8F8C900389D6A /* FlickrNetwork.swift */; };
 		CE6896281EE8FA4800389D6A /* PinProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6896271EE8FA4800389D6A /* PinProperties.swift */; };
-		CE68962C1EE8FC3000389D6A /* CoreDataModel.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = CE68962B1EE8FC3000389D6A /* CoreDataModel.xcdatamodeld */; };
 		CE6F339B1EE8BD88006B9BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F339A1EE8BD88006B9BCD /* AppDelegate.swift */; };
 		CE6F33A01EE8BD88006B9BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F339E1EE8BD88006B9BCD /* Main.storyboard */; };
 		CE6F33A51EE8BD88006B9BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6F33A41EE8BD88006B9BCD /* Assets.xcassets */; };
@@ -25,6 +24,7 @@
 		CE6F33B31EE8BD89006B9BCD /* VirtualTouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F33B21EE8BD89006B9BCD /* VirtualTouristTests.swift */; };
 		CE6F33BE1EE8BD89006B9BCD /* VirtualTouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F33BD1EE8BD89006B9BCD /* VirtualTouristUITests.swift */; };
 		CE6F33CD1EE8BDE4006B9BCD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6F33CC1EE8BDE4006B9BCD /* MapKit.framework */; };
+		CE82B3E81EE9DDC9009E259A /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE82B3E61EE9DDC9009E259A /* CoreDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		CE68961F1EE8F8B400389D6A /* FlickrImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrImage.swift; sourceTree = "<group>"; };
 		CE6896211EE8F8C900389D6A /* FlickrNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrNetwork.swift; sourceTree = "<group>"; };
 		CE6896271EE8FA4800389D6A /* PinProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinProperties.swift; sourceTree = "<group>"; };
-		CE68962A1EE8FC3000389D6A /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		CE6F33971EE8BD88006B9BCD /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6F339A1EE8BD88006B9BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6F339F1EE8BD88006B9BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		CE6F33BD1EE8BD89006B9BCD /* VirtualTouristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTouristUITests.swift; sourceTree = "<group>"; };
 		CE6F33BF1EE8BD89006B9BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6F33CC1EE8BDE4006B9BCD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE82B3E71EE9DDC9009E259A /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +171,8 @@
 			children = (
 				CE6F339A1EE8BD88006B9BCD /* AppDelegate.swift */,
 				CE6F339E1EE8BD88006B9BCD /* Main.storyboard */,
+				CE82B3E61EE9DDC9009E259A /* CoreDataModel.xcdatamodeld */,
 				CE6896101EE8F3F900389D6A /* CoreDataStack.swift */,
-				CE68962B1EE8FC3000389D6A /* CoreDataModel.xcdatamodeld */,
 				CE6896121EE8F7F600389D6A /* View Controllers */,
 				CE6F33A41EE8BD88006B9BCD /* Assets.xcassets */,
 				CE6F33A61EE8BD88006B9BCD /* LaunchScreen.storyboard */,
@@ -324,7 +324,6 @@
 			files = (
 				CE6F33A81EE8BD88006B9BCD /* LaunchScreen.storyboard in Resources */,
 				CE6F33A51EE8BD88006B9BCD /* Assets.xcassets in Resources */,
-				CE68962C1EE8FC3000389D6A /* CoreDataModel.xcdatamodeld in Resources */,
 				CE6F33A01EE8BD88006B9BCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +351,7 @@
 			files = (
 				CE6896201EE8F8B400389D6A /* FlickrImage.swift in Sources */,
 				CE68961A1EE8F86400389D6A /* Photo.swift in Sources */,
+				CE82B3E81EE9DDC9009E259A /* CoreDataModel.xcdatamodeld in Sources */,
 				CE6896221EE8F8C900389D6A /* FlickrNetwork.swift in Sources */,
 				CE6896111EE8F3F900389D6A /* CoreDataStack.swift in Sources */,
 				CE68961E1EE8F89D00389D6A /* CollectionViewCell.swift in Sources */,
@@ -632,15 +632,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CE68962B1EE8FC3000389D6A /* CoreDataModel.xcdatamodeld */ = {
+		CE82B3E61EE9DDC9009E259A /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CE68962A1EE8FC3000389D6A /* CoreDataModel.xcdatamodel */,
+				CE82B3E71EE9DDC9009E259A /* CoreDataModel.xcdatamodel */,
 			);
-			currentVersion = CE68962A1EE8FC3000389D6A /* CoreDataModel.xcdatamodel */;
-			name = CoreDataModel.xcdatamodeld;
-			path = "/Users/millertime/Downloads/Virtual-Tourist-master-4/VirtualTourist/../CoreDataModel.xcdatamodeld";
-			sourceTree = "<absolute>";
+			currentVersion = CE82B3E71EE9DDC9009E259A /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
